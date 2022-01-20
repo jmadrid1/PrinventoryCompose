@@ -90,15 +90,7 @@ fun PrinterCardDetails(
                     fontSize = 16.sp,
                 )
             ) {
-                append(stringResource(id = R.string.list_row_printer_dept))
-            }
-            withStyle(
-                style = SpanStyle(
-                    fontWeight = FontWeight.Normal,
-                    fontSize = 16.sp,
-                )
-            ) {
-                append(printer.dept.toString())
+                append(stringResource(id = R.string.list_row_printer_dept) + "  " + printer.dept.toString())
             }
         },
             modifier.padding(
@@ -114,15 +106,7 @@ fun PrinterCardDetails(
                     fontSize = 16.sp
                 )
             ) {
-                append(stringResource(id = R.string.list_row_printer_ip))
-            }
-            withStyle(
-                style = SpanStyle(
-                    fontWeight = FontWeight.Normal,
-                    fontSize = 16.sp
-                )
-            ) {
-                append(printer.ip.toString())
+                append(stringResource(id = R.string.list_row_printer_ip) + "  " + printer.ip.toString())
             }
         },
             modifier.padding(
