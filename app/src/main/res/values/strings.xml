@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PrinventoryCompose</string>
+
+    <string name="title_activity_printer">Printers</string>
+    <string name="title_activity_toner">Toners</string>
+
+    //Common
+    <string name="btn_save">Save</string>
+    <string name="btn_update">Update</string>
+
+    //Bottom Navigation
+    <string name="bottom_nav_route_printer">printer_screen</string>
+    <string name="bottom_nav_route_toner">toner_screen</string>
+
+    <string name="bottom_nav_tab_printer">Printers</string>
+    <string name="bottom_nav_tab_toner">Toners</string>
+
+    //PrinterCard
+    <string name="list_row_printer_dept">Dept:   </string>
+    <string name="list_row_printer_ip">IP:   </string>
+
+    <string name="list_printer_empty">There are currently no printers entered in inventory</string>
+
+    //PrinterDetails
+    <string name="printer_details_serial">Serial: </string>
+    <string name="printer_details_owner">Owner: </string>
+    <string name="printer_details_dept">Department: </string>
+    <string name="printer_details_location">Location: </string>
+    <string name="printer_details_floor">Floor: </string>
+    <string name="printer_details_ip">IP: </string>
+
+    <string name="btn_edit_printer">Edit Printer</string>
+
+    //TonerDetails
+    <string name="btn_edit_toner">Edit Toner</string>
+
+    <string name="list_toner_empty">There are currently no toners entered in inventory</string>
+
+    //TonerCard
+    <string name="list_row_toner_tmodel">Toner Model:   </string>
+
+
+</resources>
